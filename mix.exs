@@ -25,7 +25,7 @@ defmodule MongoosePush.Mixfile do
 
   defp deps do
     [
-     {:pigeon, github: "rslota/pigeon"},
+     {:pigeon, github: "irybakov/pigeon", branch: "feature/fcm_priority"},
      {:maru, "~> 0.12", override: true},
      {:poison, "~> 3.0"},
      {:httpoison, "~> 0.13"},

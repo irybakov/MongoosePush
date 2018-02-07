@@ -33,7 +33,7 @@
   "mix_docker": {:hex, :mix_docker, "0.5.0", "c7ad34008c43d4a949d69721f39c4d2a2afc509c179926a683117ea8dff8af59", [:mix], [{:distillery, "~> 1.2", [hex: :distillery, repo: "hexpm", optional: false]}], "hexpm"},
   "mock": {:hex, :mock, "0.3.1", "994f00150f79a0ea50dc9d86134cd9ebd0d177ad60bd04d1e46336cdfdb98ff9", [:mix], [{:meck, "~> 0.8.8", [hex: :meck, repo: "hexpm", optional: false]}], "hexpm"},
   "parse_trans": {:hex, :parse_trans, "3.1.0", "1bad3b959941cc53ffd6f4769a5d2666f9cdf179b2d62826636497d3fbad9ec0", [:rebar3], [], "hexpm"},
-  "pigeon": {:git, "https://github.com/rslota/pigeon.git", "8b734de28b14dbeeeb71c9d1ca24840434e429b7", []},
+  "pigeon": {:git, "https://github.com/irybakov/pigeon.git", "cbf6e5b5d49f48d7bcd7c3edc1e0cb02982cdf92", [branch: "feature/fcm_priority"]},
   "plug": {:hex, :plug, "1.4.3", "236d77ce7bf3e3a2668dc0d32a9b6f1f9b1f05361019946aae49874904be4aed", [:mix], [{:cowboy, "~> 1.0.1 or ~> 1.1", [hex: :cowboy, repo: "hexpm", optional: true]}, {:mime, "~> 1.0", [hex: :mime, repo: "hexpm", optional: false]}], "hexpm"},
   "pobox": {:hex, :pobox, "1.0.4", "e695bc3b2b547dd6c8e5a19cb743396e6670e306ad3ff498844738f9418bd686", [:rebar3], [], "hexpm"},
   "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], [], "hexpm"},
